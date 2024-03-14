@@ -2,3 +2,26 @@ h1 { text-align: center;
 
 }
 
+.img_logo{
+    width: 10rem;
+}
+
+.nav_contenedor{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.contenedor_principal{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 95%;
+}
+.fondo_inicio{
+    background-image: url('/Imagenes_Emilia/Fondo_quemacoco.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 3rem;
+}
