@@ -3,13 +3,14 @@ h1 { text-align: center;
 }
 
 .img_logo{
-    width: 10rem;
+    width: 6rem;
 }
 
 .nav_contenedor{
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 5rem;
 }
 
 .contenedor_principal{
@@ -25,3 +26,62 @@ h1 { text-align: center;
     background-size: cover;
     padding: 3rem;
 }
+
+.parte_izq{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 33%;
+}
+.img_central{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 33%;
+    
+}
+.parte_derecha{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.color_publicidad{
+    color: #196699;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.cont_potencia{
+    display: flex;
+    margin-bottom: 5rem;
+    align-items: center;
+    flex-direction: row;
+    padding: 3%;
+}
+
+.content_img{
+    display: flex;
+    align-items: flex-end;
+    justify-content:left ;
+}
+
+.juntassomosmas{
+    width: 20rem;
+}
+.text_potencia{
+    padding: 0 4rem;
+}
+.color_potencia{
+    color: #E43B6E;
+}
+
+.sobre_noso{
+    background-color: #E43B6E;
+    padding: 0 15rem;
+}
+
+
+
+
