@@ -82,6 +82,27 @@ h1 { text-align: center;
     padding: 0 15rem;
 }
 
+.boton_nosotros{
+    
+        background-color: #E43B6E; /* Color de fondo verde */
+        color: white; /* Color del texto blanco */
+        border: none; /* Sin borde */
+        padding: 14px 28px;     
+        font-size: 1.5rem; 
+        cursor: pointer; 
+        display: inline-block; 
+        animation: 1s infinite;
+    }
+    
+    .boton_nosotros:hover {
+        background-color: #FADBD8; /* Cambia el color de fondo al pasar el mouse */
+    
+    
+}
+
+.tamaño_estruc{
+    width: 17rem;
+}
 
 
 
