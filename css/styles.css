@@ -102,9 +102,18 @@ h1 { text-align: center;
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
 .img_service{
-    width: 5rem;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.text_service{
+    text-align: center;
+    color: #6BB8C2;
 }
