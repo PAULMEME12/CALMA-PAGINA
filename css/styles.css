@@ -3,7 +3,7 @@ h1 { text-align: center;
 }
 
 .img_logo{
-    width: 6rem;
+    width: 8rem;
 }
 
 .nav_contenedor{
@@ -50,7 +50,8 @@ h1 { text-align: center;
 .color_publicidad{
     color: #196699;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
+    
 }
 
 .cont_potencia{
@@ -82,27 +83,28 @@ h1 { text-align: center;
     padding: 0 15rem;
 }
 
-.boton_nosotros{
+.boton_nosotros{ 
+    background-color: #E43B6E; /* Color de fondo */
+    color: white;              /* Color del texto */
+    border-radius: 2rem; 
+    padding: 14px 28px;     
+    font-size: 1.5rem; 
+    cursor: pointer; 
+    display: inline-block; 
+    animation: 1s infinite;
+}
     
-        background-color: #E43B6E; /* Color de fondo verde */
-        color: white; /* Color del texto blanco */
-        border: none; /* Sin borde */
-        padding: 14px 28px;     
-        font-size: 1.5rem; 
-        cursor: pointer; 
-        display: inline-block; 
-        animation: 1s infinite;
-    }
-    
-    .boton_nosotros:hover {
-        background-color: #FADBD8; /* Cambia el color de fondo al pasar el mouse */
-    
-    
+.boton_nosotros:hover {
+    background-color: #FADBD8; /* Cambia el color de fondo al pasar el mouse */
 }
 
-.tamaño_estruc{
-    width: 17rem;
+.nuestros_servicios{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
 }
 
-
-
+.img_service{
+    width: 5rem;
+}
