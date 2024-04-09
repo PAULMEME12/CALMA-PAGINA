@@ -6,8 +6,28 @@ a{
     text-decoration: none;
 }
 
+.ini{
+    color: #E43B6E;
+}
+
 .img_logo{
     width: 8rem;
+}
+
+.noso{
+    color: #E43B6E;
+}
+
+.serv{
+    color: #E43B6E;
+}
+
+.porta{
+    color: #E43B6E;
+}
+
+.conta{
+    color: #E43B6E;
 }
 
 .nav_contenedor{
@@ -231,4 +251,39 @@ padding: 1rem;
     flex-direction: column;
     align-content: center;
     align-items: center;
+}
+
+
+.acerca_noso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+
+.mision_quemacoco{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    font-size: large;
+}
+
+.cont_mision{
+    display: flex;
+    background-color: #F2F2F2;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.frase_quema{
+    padding: 10rem;
+    font-size: large;
+}
+
+.img_misi{
+    width: 45rem;
 }
