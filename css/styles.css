@@ -259,6 +259,12 @@ padding: 1rem;
     flex-direction: column;
     align-items: center;
     font-size: large;
+    background-color: #F2F2F2;
+    color: #6BB8C2;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
 }
 
 .mision_quemacoco{
@@ -268,6 +274,11 @@ padding: 1rem;
     align-items: center;
     padding: 2rem;
     font-size: large;
+    color: #6BB8C2;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
 }
 
 .cont_mision{
@@ -276,14 +287,98 @@ padding: 1rem;
     flex-direction: row-reverse;
     align-items: center;
     padding: 2rem;
+    color: #6BB8C2;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
 .frase_quema{
     padding: 10rem;
     font-size: large;
+    font-size: 30px;
 }
 
 .img_misi{
     width: 45rem;
+}
+
+
+
+/*
+
+
+
+.content_porta{
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1500px;
+    grid-gap:20px;
+    padding: 0px 0;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box1:nth-child(1) {
+    grid-column-start: span 2;
+}
+
+.box1:nth-child(4) {
+    grid-column-start: span 2;
+}
+
+*/
+
+
+#portafolio {
+ padding: 20px;
+ background-color: #f9f9f9;
+}
+
+.galeria {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.imagen {
+ flex: 2 0 26%; /* Ajusta el tamaño de las imágenes y el espacio entre ellas */
+ margin: 0px;
+}
+
+.imagen img {
+ width: 100%;
+ height: auto;
+}
+
+.background_porta{
+    background-image: url('/Imagenes_Emilia/QUEMACOCO3.png');
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav_contenedor1{
+    padding: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 5rem;
+    border: none;
+    
+    
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
 }
