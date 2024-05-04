@@ -1,3 +1,4 @@
+
 h1 { text-align: center;
 
 }
@@ -260,7 +261,7 @@ padding: 1rem;
     align-items: center;
     font-size: large;
     background-color: #F2F2F2;
-    color: #6BB8C2;
+    color: #E43B6E;
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
@@ -298,12 +299,12 @@ padding: 1rem;
     padding: 10rem;
     font-size: large;
     font-size: 30px;
+    color: #E43B6E;
 }
 
 .img_misi{
     width: 45rem;
 }
-
 
 
 /*
@@ -439,3 +440,49 @@ padding: 1rem;
     color: #196699;
     font-size: 30px; 
 }
+
+
+.contact{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.contac_inicio{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contacta{
+    font-size: 32px;
+}
+
+.label{
+    color: #283629 ;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #a6e7f0;
+    border: 2px solid white;
+    color: #283629;
+    outline: none;
+}
+
+
+
