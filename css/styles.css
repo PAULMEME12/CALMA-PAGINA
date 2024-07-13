@@ -95,7 +95,8 @@ a{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    width: 33%;
+    width: 32%;
+    color: #E43B6E;
     
 }
 .parte_derecha{
@@ -176,8 +177,10 @@ a{
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: space-around;
 
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
